@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/Vazirmatn-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --ifm-color-primary: #855c27;
+  --ifm-color-primary-dark: #755121;
+  --ifm-color-primary-darker: #6e4c1f;
+  --ifm-color-primary-darkest: #5b3f1a;
+  --ifm-color-primary-light: #94672d;
+  --ifm-color-primary-lighter: #9b6d31;
+  --ifm-color-primary-lightest: #b07e42;
+  --ifm-background-color: #fffdf8;
+  --ifm-navbar-background-color: rgba(255, 252, 244, 0.82);
+  --ifm-footer-background-color: #f4ecdc;
+  --ifm-font-family-base: 'Vazirmatn', system-ui, sans-serif;
+  --ifm-heading-font-family: 'Vazirmatn', system-ui, sans-serif;
+  --ifm-code-font-size: 95%;
+  --ifm-line-height-base: 1.9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --site-ink: #1f2d24;
+  --site-text-soft: #55635b;
+  --site-accent: #855c27;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--site-ink);
+  background:
+    radial-gradient(circle at top right, rgba(231, 161, 94, 0.08), transparent 18%),
+    linear-gradient(180deg, #fffdf8 0%, #fffaf0 100%);
+}
+
+.navbar {
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(79, 59, 21, 0.06);
+}
+
+.navbar__brand {
+  font-weight: 800;
+}
+
+.navbar__link {
+  font-weight: 600;
+}
+
+.nav-home-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.nav-home-flag::before {
+  content: '';
+  width: 1rem;
+  height: 0.72rem;
+  border-radius: 2px;
+  background-image: url('/img/symbols/iran-flag.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0 1px rgba(44, 62, 50, 0.08);
+  flex: 0 0 auto;
+}
+
+.button.button--primary {
+  color: #fffaf2;
+  box-shadow: 0 14px 30px rgba(133, 92, 39, 0.22);
+}
+
+.markdown > h1,
+.markdown > h2,
+.markdown > h3 {
+  letter-spacing: -0.02em;
+}
+
+.footer {
+  border-top: 1px solid rgba(44, 62, 50, 0.08);
+}
+
+.about-lead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.about-lead-copy > p:first-child {
+  margin-top: 0;
+}
+
+.profile-photo {
+  margin: 0;
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  border-radius: 28px;
+  border: 1px solid rgba(44, 62, 50, 0.08);
+  box-shadow: 0 20px 50px rgba(79, 59, 21, 0.12);
+}
+
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-navbar-sidebar-width: 100vw;
+  }
+
+  .navbar__items {
+    direction: rtl;
+  }
+
+  .navbar-sidebar {
+    position: fixed;
+    inset: 0;
+    height: 100dvh;
+    width: var(--ifm-navbar-sidebar-width);
+    max-width: var(--ifm-navbar-sidebar-width);
+    background:
+      linear-gradient(180deg, rgba(255, 252, 244, 0.98) 0%, rgba(255, 249, 238, 0.98) 100%);
+  }
+
+  .navbar-sidebar__backdrop {
+    inset: 0;
+    height: 100dvh;
+    background-color: rgba(31, 45, 36, 0.2);
+  }
+
+  .navbar-sidebar__brand {
+    direction: rtl;
+    background-color: rgba(255, 252, 244, 0.96);
+    border-bottom: 1px solid rgba(44, 62, 50, 0.08);
+    box-shadow: 0 8px 24px rgba(79, 59, 21, 0.06);
+  }
+
+  .navbar-sidebar__close {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .navbar-sidebar__items {
+    height: calc(100dvh - var(--ifm-navbar-height));
+    min-height: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    overflow-y: auto;
+    direction: rtl;
+  }
+
+  .navbar-sidebar__item {
+    width: var(--ifm-navbar-sidebar-width);
+    padding: 1rem;
+  }
+
+  .navbar-sidebar__item.menu {
+    background: transparent;
+  }
+
+  .navbar-sidebar .menu__list {
+    gap: 0.35rem;
+  }
+
+  .navbar-sidebar .menu__link {
+    border-radius: 16px;
+    font-weight: 700;
+    padding: 0.9rem 1rem;
+  }
+
+  .navbar-sidebar__back {
+    margin: 0 0 1rem;
+    padding: 0.85rem 1rem;
+    width: 100%;
+    border-radius: 16px;
+    text-align: right;
+  }
+
+  .navbar-sidebar .nav-home-flag::before,
+  .navbar-sidebar__items .nav-home-flag::before {
+    display: none;
+  }
+
+  .about-lead {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}

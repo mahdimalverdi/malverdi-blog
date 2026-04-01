@@ -1,0 +1,114 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 5.5rem 0 4rem;
+  background:
+    radial-gradient(circle at top left, rgba(231, 161, 94, 0.24), transparent 30%),
+    radial-gradient(circle at right 20%, rgba(116, 146, 111, 0.18), transparent 24%),
+    linear-gradient(180deg, #fffdf6 0%, #f5efe0 100%);
+}
+
+.heroInner {
+  display: block;
+}
+
+.copy {
+  max-width: 48rem;
+}
+
+.kicker {
+  margin: 0 0 1rem;
+  color: var(--site-accent);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2.6rem, 5vw, 4.6rem);
+  line-height: 1.1;
+}
+
+.lead {
+  margin: 1.25rem 0 0;
+  max-width: 40rem;
+  color: var(--site-text-soft);
+  font-size: 1.08rem;
+  line-height: 1.95;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.secondaryAction {
+  color: var(--site-ink);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(44, 62, 50, 0.16);
+  padding-bottom: 0.25rem;
+}
+
+.section {
+  padding: 4.5rem 0;
+}
+
+.sectionHeader {
+  margin-bottom: 1.75rem;
+}
+
+.sectionEyebrow {
+  margin: 0 0 0.6rem;
+  color: var(--site-accent);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card {
+  border-radius: 24px;
+  border: 1px solid rgba(44, 62, 50, 0.08);
+  background: #fffdf9;
+  padding: 1.4rem;
+  box-shadow: 0 16px 34px rgba(79, 59, 21, 0.06);
+}
+
+.cardTitle {
+  margin: 0 0 0.7rem;
+  font-size: 1.2rem;
+}
+
+.cardText {
+  margin: 0;
+  color: var(--site-text-soft);
+  line-height: 1.95;
+}
+
+@media screen and (max-width: 996px) {
+  .hero {
+    padding-top: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
+}
