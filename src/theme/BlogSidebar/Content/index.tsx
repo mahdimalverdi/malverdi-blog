@@ -2,7 +2,7 @@ import React, {memo, type ReactNode} from 'react';
 import Heading from '@theme/Heading';
 import type {Props} from '@theme/BlogSidebar/Content';
 
-import {formatJalaliYear} from '../../../utils/jalaliDate';
+import {formatJalaliYear} from '@site/src/utils/jalaliDate';
 
 function BlogSidebarYearGroup({
   year,
