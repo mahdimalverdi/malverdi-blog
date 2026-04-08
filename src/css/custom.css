@@ -81,6 +81,12 @@ body {
   letter-spacing: -0.02em;
 }
 
+.theme-blog-post-page .markdown p,
+.theme-blog-post-page .markdown li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .footer {
   border-top: 1px solid rgba(44, 62, 50, 0.08);
 }

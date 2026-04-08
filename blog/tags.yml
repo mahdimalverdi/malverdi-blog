@@ -7,3 +7,13 @@
   label: نوشتن
   permalink: /writing
   description: یادداشت‌ها و تجربه‌های مربوط به نوشتن و انتشار
+
+آزمون‌نویسی:
+  label: آزمون‌نویسی
+  permalink: /testing
+  description: تجربه‌ها و نکته‌های مربوط به آزمون نرم‌افزار
+
+بازآرایی:
+  label: بازآرایی
+  permalink: /refactoring
+  description: یادداشت‌هایی درباره بازآرایی کد و پایداری طراحی

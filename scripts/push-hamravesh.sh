@@ -37,6 +37,7 @@ Optional inputs:
   TAG                Image tag, defaults to the current short commit hash
   DOCKERFILE_PATH    Dockerfile path, defaults to Dockerfile
   BUILD_CONTEXT      Build context, defaults to .
+  BUILD_COMMAND      Local build command, defaults to "pnpm build"
 EOF
 }
 
@@ -63,8 +64,17 @@ IMAGE_NAME="${IMAGE_NAME:-$DEFAULT_IMAGE_NAME}"
 IMAGE_REPOSITORY="${IMAGE_REPOSITORY:-${IMAGE_NAMESPACE}/${IMAGE_NAME}}"
 DOCKERFILE_PATH="${DOCKERFILE_PATH:-Dockerfile}"
 BUILD_CONTEXT="${BUILD_CONTEXT:-.}"
+BUILD_COMMAND="${BUILD_COMMAND:-pnpm build}"
 
 IMAGE_REF="${IMAGE_REPOSITORY}:${TAG}"
+
+echo "Building site locally with: ${BUILD_COMMAND}"
+bash -lc "$BUILD_COMMAND"
+
+if [[ ! -d build ]]; then
+  echo 'Local build did not produce a "build" directory.' >&2
+  exit 1
+fi
 
 echo "Building ${IMAGE_REF}..."
 docker build \
