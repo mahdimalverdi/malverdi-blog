@@ -17,3 +17,23 @@
   label: بازآرایی
   permalink: /refactoring
   description: یادداشت‌هایی درباره بازآرایی کد و پایداری طراحی
+
+معماری سامانه:
+  label: معماری سامانه
+  permalink: /system-architecture
+  description: یادداشت‌هایی درباره طراحی، مرزبندی و رفتار سامانه‌های نرم‌افزاری
+
+عملیات نرم‌افزار:
+  label: عملیات نرم‌افزار
+  permalink: /software-operations
+  description: تجربه‌ها و تحلیل‌هایی درباره اداره، استقرار و نگهداشت سامانه‌ها
+
+مشاهده‌پذیری:
+  label: مشاهده‌پذیری
+  permalink: /observability
+  description: یادداشت‌هایی درباره فهم رفتار سامانه از راه نشانه‌ها، سنجه‌ها و ردگیری‌ها
+
+سامانه‌های داده‌محور:
+  label: سامانه‌های داده‌محور
+  permalink: /data-intensive-systems
+  description: یادداشت‌هایی درباره سامانه‌هایی که پیچیدگی اصلی آن‌ها از داده و وضعیت می‌آید

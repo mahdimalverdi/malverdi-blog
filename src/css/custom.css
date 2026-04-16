@@ -82,7 +82,9 @@ body {
 }
 
 .theme-blog-post-page .markdown p,
-.theme-blog-post-page .markdown li {
+.theme-blog-post-page .markdown li,
+.theme-blog-list-page .markdown p,
+.theme-blog-list-page .markdown li {
   text-align: justify;
   text-justify: inter-word;
 }
