@@ -33,31 +33,31 @@ const focusAreas = [
 
 const resumeItems = [
   {
-    meta: 'Nobitex | Dec 2025 تا اکنون',
+    meta: 'نوبیتکس | Dec 2025 تا اکنون',
     title: 'Software Engineer',
     description:
       'ساخت و نگهداری قابلیت‌های بک‌اند و سامانه‌های داده‌ای برای یک پلتفرم تبادل رمزارز، با تمرکز بر قابلیت اطمینان، مشاهده‌پذیری، پردازش داده و مهندسی تولید در سامانه‌های مالی.',
   },
   {
-    meta: 'Yektanet | Jul 2024 تا Jan 2026',
+    meta: 'یکتانت | Jul 2024 تا Jan 2026',
     title: 'Technical Lead Manager',
     description:
       'رهبری طراحی و توسعه‌ی پلتفرم دریافت رویداد با Go و Kafka در مقیاس ۲۰ تا ۸۰ هزار درخواست بر ثانیه، مهاجرت به دریاچه‌ی داده‌ی مبتنی بر Apache Iceberg، پایدارسازی Spark روی Kubernetes، و ساخت مسیرهای ETL و انبار تحلیلی ClickHouse.',
   },
   {
-    meta: 'Yektanet | Jan 2024 تا Jul 2024',
+    meta: 'یکتانت | Jan 2024 تا Jul 2024',
     title: 'Senior Software Engineer',
     description:
       'مشارکت در توسعه‌ی سامانه‌های داده‌ای، تحلیلی و مقیاس‌پذیر پیش از ورود به نقش رهبری فنی؛ با تمرکز بر زیرساخت داده، پردازش رویداد، ETL و آماده‌سازی داده برای تحلیل و گزارش‌گیری.',
   },
   {
-    meta: 'Mohaymen ICT Company | Jul 2019 تا Mar 2024',
+    meta: 'مهیمن | Jul 2019 تا Mar 2024',
     title: 'Technical Team Lead / Software Engineer',
     description:
       'رهبری و توسعه‌ی بک‌اند برای سامانه‌های بزرگ داده‌ی مالیاتی، شامل دریافت و اعتبارسنجی داده، مدیریت فرایندها، گزارش‌گیری، پایش، عیب‌یابی تولید، بازبینی کد و بازآرایی تدریجی سرویس‌های سازمانی.',
   },
   {
-    meta: 'Acctech Technology Kish | 2018 تا 2019',
+    meta: 'اکتک (Acctech) | 2018 تا 2019',
     title: 'Software Development Engineer',
     description:
       'توسعه‌ی سرویس‌های بک‌اند ASP.NET Core و مدل‌های داده‌ی SQL Server برای محصولات نرم‌افزاری کسب‌وکار، همراه با بهبود کارایی، خودکارسازی فرایندهای تکراری و نگهداری قابلیت‌های تولیدی.',
@@ -135,25 +135,25 @@ const selectedProjects = [
 const timelineItems = [
   {
     period: 'Dec 2025 تا اکنون',
-    title: 'Nobitex؛ مهندسی نرم‌افزار در سامانه‌های مالی و داده‌محور',
+    title: 'نوبیتکس؛ مهندسی نرم‌افزار در سامانه‌های مالی و داده‌محور',
     description:
       'کار روی قابلیت‌های بک‌اند و داده‌ای در محیطی که قابلیت اطمینان، دقت، مشاهده‌پذیری و عملیات تولید اهمیت مستقیم دارند.',
   },
   {
     period: 'Jan 2024 تا Jan 2026',
-    title: 'Yektanet؛ از Senior Software Engineer تا Technical Lead Manager',
+    title: 'یکتانت؛ از Senior Software Engineer تا Technical Lead Manager',
     description:
       'کار روی دریافت رویداد پرترافیک، Apache Iceberg، Spark روی Kubernetes، Airflow، ClickHouse، Yektanama، Alefba و مسیرهای داده‌ی سازمانی.',
   },
   {
     period: 'Jul 2019 تا Mar 2024',
-    title: 'Mohaymen ICT Company؛ سامانه‌های سازمانی و داده‌ی مالیاتی',
+    title: 'مهیمن؛ سامانه‌های سازمانی و داده‌ی مالیاتی',
     description:
       'رهبری و توسعه‌ی بک‌اند برای سامانه‌های بزرگ سازمانی، شامل دریافت داده، اعتبارسنجی، فرایندهای کاری، گزارش‌گیری، پایش و عیب‌یابی تولید.',
   },
   {
     period: '2018 تا 2019',
-    title: 'Acctech Technology Kish؛ شروع مسیر حرفه‌ای توسعه‌ی نرم‌افزار',
+    title: 'اکتک (Acctech)؛ شروع مسیر حرفه‌ای توسعه‌ی نرم‌افزار',
     description:
       'توسعه‌ی سرویس‌های ASP.NET Core و مدل‌های SQL Server برای محصولات نرم‌افزاری کسب‌وکار و بهبود کارایی و نگهداری قابلیت‌های تولیدی.',
   },
