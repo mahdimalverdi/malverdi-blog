@@ -113,6 +113,7 @@
 
 .focusSection,
 .section,
+.toolboxSection,
 .noteSection,
 .contactSection {
   margin-top: 2rem;
@@ -165,6 +166,66 @@
   box-shadow: 0 14px 28px rgba(79, 59, 21, 0.05);
 }
 
+.resumeGrid,
+.educationGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.resumeGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.educationGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.resumeCard,
+.educationCard {
+  border: 1px solid rgba(44, 62, 50, 0.08);
+  border-radius: 28px;
+  background: #fffdf9;
+  box-shadow: 0 16px 34px rgba(79, 59, 21, 0.06);
+  padding: 1.35rem;
+}
+
+.meta,
+.place {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--site-accent);
+  font-size: 0.84rem;
+  font-weight: 900;
+  line-height: 1.8;
+}
+
+.toolboxSection {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+  border: 1px solid rgba(44, 62, 50, 0.08);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.54);
+  padding: 2rem;
+}
+
+.toolboxGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.toolboxGrid span {
+  border: 1px solid rgba(44, 62, 50, 0.08);
+  border-radius: 999px;
+  background: #fffdf9;
+  color: var(--site-ink);
+  font-weight: 800;
+  padding: 0.55rem 0.9rem;
+  box-shadow: 0 10px 22px rgba(79, 59, 21, 0.05);
+}
+
 .timeline {
   display: grid;
   gap: 1rem;
@@ -195,6 +256,8 @@
 
 .timelineItem p,
 .card p,
+.resumeCard p,
+.educationCard p,
 .contactSection p {
   margin: 0;
   color: var(--site-text-soft);
@@ -270,6 +333,9 @@
 
   .hero,
   .focusSection,
+  .resumeGrid,
+  .educationGrid,
+  .toolboxSection,
   .timelineItem,
   .cards,
   .noteSection,
@@ -287,6 +353,7 @@
   }
 
   .focusSection,
+  .toolboxSection,
   .noteSection,
   .contactSection {
     padding: 1.25rem;
