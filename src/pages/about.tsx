@@ -31,6 +31,63 @@ const focusAreas = [
   'کاربرد مدل‌های زبانی در مهندسی نرم‌افزار',
 ];
 
+const resumeItems = [
+  {
+    meta: 'تمرکز حرفه‌ای',
+    title: 'مهندسی نرم‌افزار و زیرساخت داده',
+    description:
+      'طراحی و پیاده‌سازی سامانه‌هایی که داده را از تولید تا تحلیل قابل اتکا می‌کنند؛ از دریافت رویداد و پردازش توزیع‌شده تا داشبوردها و گزارش‌های تحلیلی.',
+  },
+  {
+    meta: 'تجربه‌ی فنی',
+    title: 'کار با سامانه‌های پرترافیک و داده‌محور',
+    description:
+      'تجربه‌ی عملی در ساخت مسیرهای داده، پردازش دسته‌ای، سامانه‌های تحلیلی و بهینه‌سازی کارایی در محیط‌هایی که پایداری و مقیاس‌پذیری اهمیت جدی دارند.',
+  },
+  {
+    meta: 'حوزه‌های کاری',
+    title: 'بک‌اند، داده، مشاهده‌پذیری و کیفیت کد',
+    description:
+      'کار در نقطه‌ی اتصال طراحی نرم‌افزار، زیرساخت داده، تست‌پذیری، مشاهده‌پذیری و تصمیم‌های فنی که روی نگهداری بلندمدت سامانه اثر می‌گذارند.',
+  },
+  {
+    meta: 'پژوهش و نوشتن',
+    title: 'مدل‌های زبانی در مهندسی نرم‌افزار',
+    description:
+      'علاقه‌مند به این‌که مدل‌های زبانی چطور می‌توانند در بازبینی کد، فهم تغییرات و تصمیم‌گیری‌های مهندسی کمک کنند؛ البته با توجه جدی به کیفیت زمینه و محدودیت‌های این ابزارها.',
+  },
+];
+
+const educationItems = [
+  {
+    title: 'کارشناسی ارشد مهندسی کامپیوتر، گرایش نرم‌افزار',
+    place: 'دانشگاه الزهرا، ورودی ۱۴۰۴',
+    description:
+      'تمرکز تحصیلی من روی مهندسی نرم‌افزار، معماری نرم‌افزار، پایگاه داده‌های پیشرفته و کاربرد مدل‌های زبانی در فرایندهای توسعه‌ی نرم‌افزار است.',
+  },
+  {
+    title: 'مسیر پژوهشی فعلی',
+    place: 'بازبینی خودکار کد با کمک مدل‌های زبانی',
+    description:
+      'در پژوهش فعلی، به نقش کیفیت زمینه، توضیح تغییر، پیام کامیت و خود diff در خروجی مدل‌های زبانی برای بازبینی کد توجه دارم.',
+  },
+];
+
+const toolboxItems = [
+  'Go',
+  'Python',
+  'SQL',
+  'Kafka',
+  'Spark',
+  'Airflow',
+  'Iceberg',
+  'ClickHouse',
+  'PostgreSQL',
+  'Kubernetes',
+  'Docker',
+  'Prometheus',
+];
+
 const timelineItems = [
   {
     period: 'اکنون',
@@ -88,7 +145,7 @@ export default function About(): ReactNode {
   return (
     <Layout
       title="درباره من"
-      description="معرفی مهدی مالوردی، مسیر حرفه‌ای، تمرکزهای فنی و نوشته‌های او">
+      description="معرفی مهدی مالوردی، مسیر حرفه‌ای، تحصیلات، تمرکزهای فنی و نوشته‌های او">
       <main className={styles.page}>
         <section className={styles.hero}>
           <div className={styles.heroCopy}>
@@ -134,6 +191,60 @@ export default function About(): ReactNode {
           <div className={styles.focusGrid}>
             {focusAreas.map((area) => (
               <span key={area}>{area}</span>
+            ))}
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <p className={styles.sectionEyebrow}>رزومه‌ی کوتاه</p>
+            <Heading as="h2" className={styles.sectionTitle}>
+              تجربه‌ای که می‌خواهم اینجا دیده شود
+            </Heading>
+          </div>
+          <div className={styles.resumeGrid}>
+            {resumeItems.map((item) => (
+              <article key={item.title} className={styles.resumeCard}>
+                <span className={styles.meta}>{item.meta}</span>
+                <Heading as="h3" className={styles.cardTitle}>
+                  {item.title}
+                </Heading>
+                <p>{item.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <p className={styles.sectionEyebrow}>تحصیلات</p>
+            <Heading as="h2" className={styles.sectionTitle}>
+              مسیر دانشگاهی و پژوهشی
+            </Heading>
+          </div>
+          <div className={styles.educationGrid}>
+            {educationItems.map((item) => (
+              <article key={item.title} className={styles.educationCard}>
+                <Heading as="h3" className={styles.cardTitle}>
+                  {item.title}
+                </Heading>
+                <p className={styles.place}>{item.place}</p>
+                <p>{item.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className={styles.toolboxSection}>
+          <div>
+            <p className={styles.sectionEyebrow}>ابزارها و فناوری‌ها</p>
+            <Heading as="h2" className={styles.sectionTitle}>
+              چیزهایی که زیاد با آن‌ها کار کرده‌ام
+            </Heading>
+          </div>
+          <div className={styles.toolboxGrid}>
+            {toolboxItems.map((tool) => (
+              <span key={tool}>{tool}</span>
             ))}
           </div>
         </section>
