@@ -102,33 +102,6 @@ const selectedProjects = [
   },
 ];
 
-const timelineItems = [
-  {
-    period: 'از ۲۰۲۵ تا اکنون',
-    title: 'نوبیتکس؛ مهندسی نرم‌افزار در سامانه‌های مالی و داده‌محور',
-    description:
-      'کار روی قابلیت‌های بک‌اند و داده‌ای در محیطی که قابلیت اطمینان، دقت، مشاهده‌پذیری و عملیات تولید اهمیت مستقیم دارند.',
-  },
-  {
-    period: '۲۰۲۴ تا ۲۰۲۶',
-    title: 'یکتانت؛ از مهندسی ارشد نرم‌افزار تا رهبری فنی',
-    description:
-      'کار روی دریافت رویداد پرترافیک، دریاچه‌ی داده، پردازش توزیع‌شده، انبار تحلیلی و مسیرهای داده‌ی سازمانی.',
-  },
-  {
-    period: '۲۰۱۹ تا ۲۰۲۴',
-    title: 'مهیمن؛ سامانه‌های سازمانی و داده‌ی مالیاتی',
-    description:
-      'رهبری و توسعه‌ی بک‌اند برای سامانه‌های بزرگ سازمانی، شامل دریافت داده، اعتبارسنجی، فرایندهای کاری، گزارش‌گیری، پایش و عیب‌یابی تولید.',
-  },
-  {
-    period: '۲۰۱۸ تا ۲۰۱۹',
-    title: 'اک تک تکنولوژی کیش؛ شروع مسیر حرفه‌ای توسعه‌ی نرم‌افزار',
-    description:
-      'توسعه‌ی سرویس‌های بک‌اند و مدل‌های داده برای محصولات نرم‌افزاری کسب‌وکار و بهبود کارایی و نگهداری قابلیت‌های تولیدی.',
-  },
-];
-
 const writingTopics = [
   {
     title: 'طراحی سامانه',
@@ -268,28 +241,6 @@ export default function About(): ReactNode {
                   {project.title}
                 </Heading>
                 <p>{project.description}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <p className={styles.sectionEyebrow}>مسیر من</p>
-            <Heading as="h2" className={styles.sectionTitle}>
-              از کجا به اینجا رسیده‌ام؟
-            </Heading>
-          </div>
-          <div className={styles.timeline}>
-            {timelineItems.map((item) => (
-              <article key={item.title} className={styles.timelineItem}>
-                <div className={styles.period}>{item.period}</div>
-                <div>
-                  <Heading as="h3" className={styles.itemTitle}>
-                    {item.title}
-                  </Heading>
-                  <p>{item.description}</p>
-                </div>
               </article>
             ))}
           </div>
