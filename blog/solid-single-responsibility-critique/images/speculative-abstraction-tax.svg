@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">آینده‌ی خیالی، هزینه‌ی واقعی</title>
+  <desc id="desc">تابع ساده‌ای که برای کش یا فیلتر احتمالی آینده به انتزاع تبدیل شده و امروز هزینه‌ی خواندن ایجاد کرده است.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .h{font:800 38px system-ui, -apple-system, Segoe UI, sans-serif; fill:#0f172a; direction:rtl; unicode-bidi:bidi-override;}
+      .t{font:700 25px system-ui, -apple-system, Segoe UI, sans-serif; fill:#1e293b; direction:rtl; unicode-bidi:bidi-override;}
+      .s{font:500 19px system-ui, -apple-system, Segoe UI, sans-serif; fill:#475569; direction:rtl; unicode-bidi:bidi-override;}
+      .code{font:700 22px ui-monospace, SFMono-Regular, Menlo, monospace; fill:#0f172a;}
+      .mono{font:600 18px ui-monospace, SFMono-Regular, Menlo, monospace; fill:#334155;}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="760" fill="url(#bg)"/>
+  <text x="700" y="72" text-anchor="middle" class="h">آینده‌ی خیالی، هزینه‌ی واقعی</text>
+  <text x="700" y="112" text-anchor="middle" class="s">انتزاعی که امروز هزینه دارد، فقط برای احتمالی که شاید هیچ‌وقت نیاید</text>
+
+  <g transform="translate(110,175)" filter="url(#shadow)">
+    <rect width="500" height="360" rx="26" fill="#ffffff"/>
+    <text x="430" y="55" text-anchor="end" class="t">کد صریح امروز</text>
+    <rect x="55" y="95" width="390" height="150" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="80" y="140" class="mono">PaymentMethod.objects</text>
+    <text x="80" y="175" class="mono">  .filter(is_enabled=True)</text>
+    <text x="80" y="210" class="mono">  .order_by("display_order")</text>
+    <text x="250" y="300" text-anchor="middle" class="s">خواننده همان‌جا تصمیم را می‌بیند.</text>
+  </g>
+
+  <path d="M640 355 C700 320, 720 320, 780 355" stroke="#0f766e" stroke-width="7" fill="none" marker-end="url(#arrow)"/>
+
+  <g transform="translate(790,175)" filter="url(#shadow)">
+    <rect width="500" height="360" rx="26" fill="#ffffff"/>
+    <text x="430" y="55" text-anchor="end" class="t">انتزاع برای شایدِ آینده</text>
+    <rect x="55" y="95" width="390" height="80" rx="18" fill="#ffedd5" stroke="#fb923c" stroke-width="2"/>
+    <text x="250" y="145" text-anchor="middle" class="code">get_enabled_payment_methods()</text>
+    <rect x="70" y="220" width="160" height="55" rx="16" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+    <text x="150" y="255" text-anchor="middle" class="mono">cache?</text>
+    <rect x="270" y="220" width="160" height="55" rx="16" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+    <text x="350" y="255" text-anchor="middle" class="mono">filter?</text>
+    <text x="250" y="315" text-anchor="middle" class="s">هزینه قطعی؛ نیاز هنوز فرضی.</text>
+  </g>
+
+  <text x="700" y="650" text-anchor="middle" class="h">کمی تکرار واقعی، از انتزاع خیالی قابل تحمل‌تر است.</text>
+</svg>
