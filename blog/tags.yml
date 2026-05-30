@@ -37,3 +37,203 @@
   label: سامانه‌های داده‌محور
   permalink: /data-intensive-systems
   description: یادداشت‌هایی درباره سامانه‌هایی که پیچیدگی اصلی آن‌ها از داده و وضعیت می‌آید
+
+معماری نرم‌افزار:
+  label: معماری نرم‌افزار
+  permalink: /software-architecture-fa
+  description: یادداشت‌هایی درباره معماری، مرزبندی و تصمیم‌های ساختاری نرم‌افزار
+
+معماری تمیز:
+  label: معماری تمیز
+  permalink: /clean-architecture-fa
+  description: یادداشت‌هایی درباره معماری تمیز، مرزها و قانون وابستگی
+
+تغییرپذیری:
+  label: تغییرپذیری
+  permalink: /changeability
+  description: یادداشت‌هایی درباره طراحی برای تغییر و کاهش هزینه‌ی تغییرات آینده
+
+طراحی نرم‌افزار:
+  label: طراحی نرم‌افزار
+  permalink: /software-design-fa
+  description: یادداشت‌هایی درباره طراحی، وابستگی‌ها، مرزها و خوانایی نرم‌افزار
+
+قواعد کسب‌وکار:
+  label: قواعد کسب‌وکار
+  permalink: /business-rules
+  description: یادداشت‌هایی درباره جایگاه قواعد کسب‌وکار در طراحی نرم‌افزار
+
+کنترلر:
+  label: کنترلر
+  permalink: /controller
+  description: یادداشت‌هایی درباره نقش کنترلرها و مرز آن‌ها در معماری نرم‌افزار
+
+مرز معماری:
+  label: مرز معماری
+  permalink: /architecture-boundary
+  description: یادداشت‌هایی درباره مرزبندی، وابستگی و طراحی تدریجی سامانه‌ها
+
+طراحی تدریجی:
+  label: طراحی تدریجی
+  permalink: /incremental-design
+  description: یادداشت‌هایی درباره رشد مرحله‌ای طراحی و پرهیز از معماری زودرس
+
+پیچیدگی نرم‌افزار:
+  label: پیچیدگی نرم‌افزار
+  permalink: /software-complexity
+  description: یادداشت‌هایی درباره پیچیدگی، هزینه‌ی تغییر و فهم نرم‌افزار
+
+شی‌گرایی:
+  label: شی‌گرایی
+  permalink: /object-oriented-programming
+  description: یادداشت‌هایی درباره شی‌گرایی، وابستگی و طراحی قابل تغییر
+
+چندریختی:
+  label: چندریختی
+  permalink: /polymorphism
+  description: یادداشت‌هایی درباره چندریختی و نقش آن در کنترل وابستگی
+
+وابستگی:
+  label: وابستگی
+  permalink: /dependency
+  description: یادداشت‌هایی درباره وابستگی‌ها و اثر آن‌ها بر طراحی نرم‌افزار
+
+قانون وابستگی:
+  label: قانون وابستگی
+  permalink: /dependency-rule
+  description: یادداشت‌هایی درباره قانون وابستگی و معماری تمیز
+
+تابعی‌نویسی:
+  label: تابعی‌نویسی
+  permalink: /functional-programming
+  description: یادداشت‌هایی درباره برنامه‌نویسی تابعی، وضعیت و همزمانی
+
+وضعیت:
+  label: وضعیت
+  permalink: /state
+  description: یادداشت‌هایی درباره وضعیت، تغییر وضعیت و اثر آن بر طراحی نرم‌افزار
+
+همزمانی:
+  label: همزمانی
+  permalink: /concurrency
+  description: یادداشت‌هایی درباره همزمانی، وضعیت مشترک و پیچیدگی اجرا
+
+SOLID:
+  label: SOLID
+  permalink: /solid
+  description: یادداشت‌هایی درباره اصول SOLID و نقد کاربرد آن‌ها در طراحی نرم‌افزار
+
+مسئولیت یکتا:
+  label: مسئولیت یکتا
+  permalink: /single-responsibility
+  description: یادداشت‌هایی درباره اصل مسئولیت یکتا و دلیل تغییر
+
+اصل باز و بسته:
+  label: اصل باز و بسته
+  permalink: /open-closed-principle
+  description: یادداشت‌هایی درباره اصل باز و بسته و طراحی برای نقاط تغییر
+
+جایگزینی لیسکوف:
+  label: جایگزینی لیسکوف
+  permalink: /liskov-substitution
+  description: یادداشت‌هایی درباره اصل جایگزینی لیسکوف و ارث‌بری درست
+
+ارث‌بری:
+  label: ارث‌بری
+  permalink: /inheritance
+  description: یادداشت‌هایی درباره ارث‌بری، چندریختی و مرزهای استفاده از آن
+
+وارونگی وابستگی:
+  label: وارونگی وابستگی
+  permalink: /dependency-inversion
+  description: یادداشت‌هایی درباره وارونگی وابستگی و سیاست‌های سطح بالا
+
+اینترفیس:
+  label: اینترفیس
+  permalink: /interface
+  description: یادداشت‌هایی درباره طراحی اینترفیس‌ها و مدیریت وابستگی
+
+آزمون‌پذیری:
+  label: آزمون‌پذیری
+  permalink: /testability
+  description: یادداشت‌هایی درباره طراحی آزمون‌پذیر و مرزهای قابل آزمون
+
+Presenter:
+  label: Presenter
+  permalink: /presenter
+  description: یادداشت‌هایی درباره Presenter، Humble Object و مرز رابط کاربری
+
+رابط کاربری:
+  label: رابط کاربری
+  permalink: /user-interface
+  description: یادداشت‌هایی درباره رابط کاربری و مرز آن با منطق برنامه
+
+پایتون:
+  label: پایتون
+  permalink: /python
+  description: یادداشت‌هایی درباره پایتون و طراحی نرم‌افزار در پروژه‌های پایتونی
+
+وابستگی چرخه‌ای:
+  label: وابستگی چرخه‌ای
+  permalink: /cyclic-dependency
+  description: یادداشت‌هایی درباره وابستگی‌های چرخه‌ای و اثر آن‌ها بر مدولاریت
+
+مدولاریت:
+  label: مدولاریت
+  permalink: /modularity
+  description: یادداشت‌هایی درباره مدولاریت، مرزبندی و طراحی قابل نگه‌داری
+
+تاریخ-رایانه:
+  label: تاریخ-رایانه
+  permalink: /computer-history
+  description: یادداشت‌هایی درباره تاریخ رایانه، برنامه‌نویسی و چهره‌های اثرگذار آن
+
+برنامه‌نویسی:
+  label: برنامه‌نویسی
+  permalink: /programming
+  description: یادداشت‌هایی درباره برنامه‌نویسی، مهارت فنی و نگاه تاریخی به آن
+
+دایجسترا:
+  label: دایجسترا
+  permalink: /dijkstra
+  description: یادداشت‌هایی درباره ادسخر دایجسترا و اثر او بر علوم رایانه
+
+الگوریتم:
+  label: الگوریتم
+  permalink: /algorithm
+  description: یادداشت‌هایی درباره الگوریتم‌ها و تاریخچه‌ی اندیشه‌ی الگوریتمی
+
+software-engineering:
+  label: Software Engineering
+  permalink: /software-engineering
+  description: Notes about software engineering, design, architecture, and maintainability
+
+architecture:
+  label: Architecture
+  permalink: /architecture
+  description: Notes about software architecture and system design decisions
+
+software-design:
+  label: Software Design
+  permalink: /software-design
+  description: Notes about software design, modularity, and changeability
+
+clean-code:
+  label: Clean Code
+  permalink: /clean-code
+  description: Notes about code quality, readability, and maintainability
+
+solid:
+  label: solid
+  permalink: /solid-lowercase
+  description: Notes about SOLID principles and their trade-offs
+
+testing:
+  label: testing
+  permalink: /testing-en
+  description: Notes about tests, testability, and confidence in change
+
+refactoring:
+  label: refactoring
+  permalink: /refactoring-en
+  description: Notes about refactoring and improving design without changing behavior
