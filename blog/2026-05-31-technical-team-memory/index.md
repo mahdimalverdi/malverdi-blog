@@ -1,12 +1,12 @@
 ---
 slug: technical-team-memory-documentation
-title: حافظه‌ی فنی تیم کجاست؟
+title: مستند بی‌صاحب از بی‌مستندی بدتر است
 authors: [default]
 tags: [software-engineering, documentation, code-review, llm]
-description: چرا مستند فنی فقط متن اضافه نیست؛ حافظه‌ی زنده‌ی تیم است، اگر جای درست، مخاطب درست و فرایند نگهداشت درست داشته باشد.
+description: چرا مستند فنی اگر جای درست، مالک روشن و فرایند نگهداشت نداشته باشد، به‌جای کمک به تیم می‌تواند گمراه‌کننده شود.
 ---
 
-# حافظه‌ی فنی تیم کجاست؟
+# مستند بی‌صاحب از بی‌مستندی بدتر است
 
 ![حافظه‌ی فنی تیم](./images/technical-team-memory-cover.png)
 
