@@ -129,7 +129,42 @@ if error_code in FINAL_ERROR_CODES:
 
 ## کامنت خوب؛ حافظه‌ی نزدیک به کد
 
-TODO: تفاوت API comment و implementation comment را توضیح دهیم و مثال خوب/بد بزنیم.
+کامنت خوب متن اضافه نیست؛ بخشی از مستند مرجع سیستم است. کتاب هم همین نگاه را دارد: بسیاری از مستندهای مرجع خوب از دل کامنت‌های کنار کد ساخته می‌شوند، چون همان‌جا به قرارداد واقعی، تغییر واقعی و بازبینی واقعی نزدیک‌اند.
+
+اما همه‌ی کامنت‌ها یک کار نمی‌کنند. کامنتی که برای مصرف‌کننده‌ی یک API نوشته می‌شود، باید قرارداد بیرونی را توضیح دهد: این تابع چه می‌خواهد، چه برمی‌گرداند، چه خطاهایی دارد و چه تضمینی می‌دهد. در مقابل، کامنت پیاده‌سازی برای کسی است که بعداً می‌خواهد کد را تغییر دهد؛ پس باید دلیل تصمیم، محدودیت پنهان یا رفتار غیرمنتظره را روشن کند.
+
+```python
+# BAD: Repeats the function name.
+def calculate_discount(price, user):
+    """Calculates discount."""
+```
+
+```python
+# GOOD: Describes the contract visible to callers.
+def calculate_discount(price, user):
+    """Returns the best applicable discount for an active user.
+
+    Trial users are not eligible for loyalty discounts.
+    The returned value is a percentage between 0 and 100.
+    """
+```
+
+این مثال برای مصرف‌کننده‌ی تابع است. خواننده لازم نیست بداند داخل تابع چند شرط داریم؛ باید بداند چه قراردادی را می‌تواند با خیال راحت استفاده کند.
+
+```python
+# We keep this branch before the loyalty check because partner campaigns
+# must override all user-level discounts. Changing the order changes billing.
+if campaign.partner_discount is not None:
+    return campaign.partner_discount
+```
+
+این یکی برای نگه‌دارنده است. اگر فقط کد را ببینیم، شاید جابه‌جا کردن شرط‌ها ساده‌سازی به نظر برسد؛ اما کامنت توضیح می‌دهد این ترتیب، بخشی از قرارداد مالی سیستم است.
+
+:::tip[قاعده‌ی کامنت خوب]
+کامنت خوب یا قرارداد را روشن می‌کند، یا دلیل تصمیم را، یا محدودیتی را که تغییر آینده باید به آن وفادار بماند.
+:::
+
+پس کامنت بد همان چیزی است که ذهن ما را شلوغ می‌کند و با تغییر کد دروغ‌گو می‌شود. کامنت خوب، برعکس، حافظه‌ای نزدیک به کد می‌سازد؛ حافظه‌ای که هم با review دیده می‌شود، هم با تغییر کد فرصت به‌روزرسانی دارد.
 
 ## وقتی خواننده فقط انسان نیست
 
