@@ -3,14 +3,19 @@ import clsx from 'clsx';
 import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
 import type {Props} from '@theme/BlogPostItem/Header/Info';
 
+import {formatJalaliDate} from '../../../../utils/jalaliDate';
 import styles from './styles.module.css';
 
 function ReadingTime({readingTime}: {readingTime: number}) {
-  return <>{`${Math.ceil(readingTime)} min read`}</>;
+  const formattedReadingTime = new Intl.NumberFormat('fa-IR').format(
+    Math.ceil(readingTime),
+  );
+
+  return <>{`${formattedReadingTime} دقیقه مطالعه`}</>;
 }
 
 function DateTime({date}: {date: string}) {
-  const formattedDate = new Intl.DateTimeFormat('en', {
+  const formattedDate = new Intl.DateTimeFormat('fa-IR', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
