@@ -14,7 +14,7 @@ image: /img/blog/mock-vs-fake.jpeg
 
 ![مقایسهٔ ماک و فیک در آزمون‌نویسی](/img/blog/mock-vs-fake.jpeg)
 
-<!-- truncate -->
+{/* truncate */}
 
 :::tip نکتهٔ اصلی
 اگر یک ریفکتور سالم باعث شکست تست شد، قبل از متهم کردن کد، اول از خودِ تست بپرسید:
