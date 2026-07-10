@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">پنج نمای مکمل برای فهم یک رویداد</title>
+  <desc id="desc">یک پیام از پنج مرحله‌ی قرارداد، کاتالوگ، تبار داده، مشاهده‌پذیری و حاکمیت عبور می‌کند.</desc>
+
+  <rect width="1600" height="720" rx="42" fill="#f7f0e3"/>
+  <circle cx="110" cy="90" r="190" fill="#d9e7e1" opacity=".55"/>
+  <circle cx="1510" cy="650" r="210" fill="#eadfd0" opacity=".7"/>
+
+  <g font-family="Vazirmatn, IRANSans, Tahoma, sans-serif">
+    <text x="800" y="76" text-anchor="middle" font-size="40" font-weight="700" fill="#12384b">پنج نمای مکمل از یک رویداد</text>
+    <text x="800" y="116" text-anchor="middle" font-size="22" fill="#58707b">هیچ ابزار به‌تنهایی همه‌ی داستان را نشان نمی‌دهد</text>
+
+    <!-- Main flow -->
+    <path d="M170 348H1430" fill="none" stroke="#b9c9c4" stroke-width="12" stroke-linecap="round"/>
+    <path d="M1404 330l32 18-32 18" fill="none" stroke="#b9c9c4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Source message -->
+    <g transform="translate(72 270)">
+      <rect width="170" height="156" rx="30" fill="#12384b"/>
+      <rect x="43" y="42" width="84" height="63" rx="10" fill="#fffaf2"/>
+      <circle cx="62" cy="63" r="7" fill="#d56f43"/>
+      <path d="M77 62h31M55 83h54" stroke="#7a9198" stroke-width="5" stroke-linecap="round"/>
+      <text x="85" y="137" text-anchor="middle" direction="rtl" font-size="22" font-weight="700" fill="#fffaf2">رویداد</text>
+    </g>
+
+    <!-- 1 Contract -->
+    <g transform="translate(300 205)">
+      <circle cx="105" cy="143" r="102" fill="#fffaf2" stroke="#12384b" stroke-width="6"/>
+      <rect x="65" y="92" width="72" height="21" rx="4" fill="none" stroke="#d98349" stroke-width="6"/>
+      <rect x="65" y="128" width="72" height="21" rx="4" fill="none" stroke="#d98349" stroke-width="6"/>
+      <rect x="65" y="164" width="72" height="21" rx="4" fill="none" stroke="#d98349" stroke-width="6"/>
+      <path d="M148 104l11 11 21-25M148 140l11 11 21-25M148 176l11 11 21-25" fill="none" stroke="#1f665f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="105" y="284" text-anchor="middle" direction="rtl" font-size="25" font-weight="700" fill="#12384b">قرارداد</text>
+      <text x="105" y="320" text-anchor="middle" direction="rtl" font-size="20" fill="#61747c">شکل پیام</text>
+      <text x="105" y="351" text-anchor="middle" font-size="17" fill="#8a6a53">Schema Registry</text>
+    </g>
+
+    <!-- 2 Catalog -->
+    <g transform="translate(540 205)">
+      <circle cx="105" cy="143" r="102" fill="#fffaf2" stroke="#1f665f" stroke-width="6"/>
+      <circle cx="72" cy="143" r="16" fill="#d98349"/>
+      <circle cx="139" cy="105" r="14" fill="#1f665f"/>
+      <circle cx="139" cy="181" r="14" fill="#1f665f"/>
+      <path d="M87 135l38-22M87 151l38 22M153 105h25M153 181h25" stroke="#12384b" stroke-width="6" stroke-linecap="round"/>
+      <text x="105" y="284" text-anchor="middle" direction="rtl" font-size="25" font-weight="700" fill="#12384b">کاتالوگ</text>
+      <text x="105" y="320" text-anchor="middle" direction="rtl" font-size="20" fill="#61747c">چه کسی به چه کسی؟</text>
+      <text x="105" y="351" text-anchor="middle" font-size="17" fill="#8a6a53">EventCatalog</text>
+    </g>
+
+    <!-- 3 Lineage -->
+    <g transform="translate(780 205)">
+      <circle cx="105" cy="143" r="102" fill="#fffaf2" stroke="#28757a" stroke-width="6"/>
+      <path d="M52 104h48v28h-48zM116 154h48v28h-48zM52 178h38v24H52zM124 84h42v24h-42z" fill="#d9e7e1" stroke="#28757a" stroke-width="4"/>
+      <path d="M100 118h22l17-10M76 132v46M90 190h28l22-36" fill="none" stroke="#d56f43" stroke-width="5" stroke-linecap="round"/>
+      <text x="105" y="284" text-anchor="middle" direction="rtl" font-size="25" font-weight="700" fill="#12384b">تبار داده</text>
+      <text x="105" y="320" text-anchor="middle" direction="rtl" font-size="20" fill="#61747c">از کجا تا کجا؟</text>
+      <text x="105" y="351" text-anchor="middle" font-size="17" fill="#8a6a53">DataHub · OpenMetadata</text>
+    </g>
+
+    <!-- 4 Runtime -->
+    <g transform="translate(1020 205)">
+      <circle cx="105" cy="143" r="102" fill="#fffaf2" stroke="#c96e42" stroke-width="6"/>
+      <path d="M47 151h28l17-47 28 89 23-61 16 19h24" fill="none" stroke="#c96e42" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="120" cy="193" r="7" fill="#12384b"/>
+      <text x="105" y="284" text-anchor="middle" direction="rtl" font-size="25" font-weight="700" fill="#12384b">زمان اجرا</text>
+      <text x="105" y="320" text-anchor="middle" direction="rtl" font-size="20" fill="#61747c">الان چه شد؟</text>
+      <text x="105" y="351" text-anchor="middle" direction="rtl" font-size="17" fill="#8a6a53">مشاهده‌پذیری</text>
+    </g>
+
+    <!-- 5 Governance -->
+    <g transform="translate(1260 205)">
+      <circle cx="105" cy="143" r="102" fill="#fffaf2" stroke="#a94f3e" stroke-width="6"/>
+      <path d="M105 76l57 22v37c0 36-24 60-57 75-33-15-57-39-57-75V98z" fill="#f3dfd2" stroke="#a94f3e" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M76 142l20 20 39-48" fill="none" stroke="#d56f43" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="105" y="284" text-anchor="middle" direction="rtl" font-size="25" font-weight="700" fill="#12384b">حاکمیت</text>
+      <text x="105" y="320" text-anchor="middle" direction="rtl" font-size="20" fill="#61747c">چه قواعدی داریم؟</text>
+      <text x="105" y="351" text-anchor="middle" direction="rtl" font-size="17" fill="#8a6a53">مالکیت · کیفیت · دسترسی</text>
+    </g>
+
+    <text x="800" y="664" text-anchor="middle" direction="rtl" font-size="22" font-weight="600" fill="#355361">قرارداد می‌گوید پیام چیست؛ کاتالوگ و تبار داده می‌گویند کجا می‌رود؛ مشاهده‌پذیری و حاکمیت می‌گویند چه شد و چه باید کرد.</text>
+  </g>
+</svg>
