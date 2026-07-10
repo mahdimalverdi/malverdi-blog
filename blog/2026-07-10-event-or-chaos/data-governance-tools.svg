@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060" role="img" aria-labelledby="title desc">
+  <title id="title">نقش ابزارها و سازوکارهای معماری داده</title>
+  <desc id="desc">مقایسه‌ی Schema Registry، EventCatalog، DataHub یا OpenMetadata، مشاهده‌پذیری و حاکمیت داده بر اساس پرسشی که هرکدام پاسخ می‌دهند.</desc>
+
+  <rect width="1600" height="1060" rx="40" fill="#f7f0e3"/>
+  <circle cx="1480" cy="110" r="170" fill="#e8ded0" opacity=".7"/>
+  <circle cx="120" cy="960" r="150" fill="#d7e5df" opacity=".75"/>
+
+  <g font-family="Vazirmatn, IRANSans, Tahoma, sans-serif">
+    <text x="800" y="82" text-anchor="middle" font-size="42" font-weight="700" fill="#102f43">هر ابزار کدام بخش از مسئله را روشن می‌کند؟</text>
+    <text x="800" y="128" text-anchor="middle" font-size="23" fill="#4b6471">از قرارداد پیام تا قواعد مالکیت و کیفیت داده</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(70 175)">
+      <rect width="1460" height="145" rx="24" fill="#fffaf2" stroke="#d8cdbf" stroke-width="2"/>
+      <rect width="330" height="145" rx="24" fill="#12384b"/>
+      <path d="M60 43h55v18H60zm0 31h55v18H60zm0 31h55v18H60z" fill="none" stroke="#f3b36b" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M127 52l13 13 25-29M127 83l13 13 25-29M127 114l13 13 25-29" fill="none" stroke="#d8e8e2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="195" y="83" text-anchor="middle" font-size="26" font-weight="700" fill="#fffaf2">Schema Registry</text>
+      <text x="1400" y="66" text-anchor="end" direction="rtl" font-size="27" font-weight="700" fill="#173c4d">شکل معتبر پیام چیست؟</text>
+      <text x="1400" y="105" text-anchor="end" direction="rtl" font-size="23" fill="#536a75">آیا تغییر شِما با نسخه‌های قبلی سازگار است؟</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(70 340)">
+      <rect width="1460" height="145" rx="24" fill="#fffaf2" stroke="#d8cdbf" stroke-width="2"/>
+      <rect width="330" height="145" rx="24" fill="#1f665f"/>
+      <circle cx="72" cy="73" r="17" fill="#f3b36b"/>
+      <circle cx="132" cy="43" r="14" fill="#d8e8e2"/>
+      <circle cx="132" cy="103" r="14" fill="#d8e8e2"/>
+      <path d="M89 66l27-16M89 80l27 16M146 43h24M146 103h24" stroke="#fffaf2" stroke-width="5" stroke-linecap="round"/>
+      <text x="230" y="83" text-anchor="middle" font-size="27" font-weight="700" fill="#fffaf2">EventCatalog</text>
+      <text x="1400" y="58" text-anchor="end" direction="rtl" font-size="27" font-weight="700" fill="#173c4d">چه رویدادهایی داریم؟</text>
+      <text x="1400" y="99" text-anchor="end" direction="rtl" font-size="23" fill="#536a75">چه کسی آن‌ها را تولید یا مصرف می‌کند و مالکشان کیست؟</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(70 505)">
+      <rect width="1460" height="145" rx="24" fill="#fffaf2" stroke="#d8cdbf" stroke-width="2"/>
+      <rect width="330" height="145" rx="24" fill="#276f73"/>
+      <path d="M50 48c0-13 26-23 58-23s58 10 58 23-26 23-58 23-58-10-58-23zm0 0v48c0 13 26 23 58 23s58-10 58-23V48M50 72c0 13 26 23 58 23s58-10 58-23" fill="none" stroke="#fffaf2" stroke-width="5"/>
+      <text x="240" y="70" text-anchor="middle" font-size="24" font-weight="700" fill="#fffaf2">DataHub</text>
+      <text x="240" y="103" text-anchor="middle" font-size="20" fill="#d8e8e2">OpenMetadata</text>
+      <text x="1400" y="58" text-anchor="end" direction="rtl" font-size="27" font-weight="700" fill="#173c4d">داده از کجا آمده و کجا رفته است؟</text>
+      <text x="1400" y="99" text-anchor="end" direction="rtl" font-size="23" fill="#536a75">چه معنایی دارد و مالک دارایی‌های داده کیست؟</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(70 670)">
+      <rect width="1460" height="145" rx="24" fill="#fffaf2" stroke="#d8cdbf" stroke-width="2"/>
+      <rect width="330" height="145" rx="24" fill="#c66e42"/>
+      <path d="M45 77h25l16-35 25 68 20-45 13 12h28" fill="none" stroke="#fffaf2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="240" y="83" text-anchor="middle" direction="rtl" font-size="27" font-weight="700" fill="#fffaf2">مشاهده‌پذیری</text>
+      <text x="1400" y="58" text-anchor="end" direction="rtl" font-size="27" font-weight="700" fill="#173c4d">الان در زمان اجرا چه رخ داده است؟</text>
+      <text x="1400" y="99" text-anchor="end" direction="rtl" font-size="23" fill="#536a75">پیام کجا کند، تکراری یا خراب شده است؟</text>
+    </g>
+
+    <!-- Row 5 -->
+    <g transform="translate(70 835)">
+      <rect width="1460" height="145" rx="24" fill="#fffaf2" stroke="#d8cdbf" stroke-width="2"/>
+      <rect width="330" height="145" rx="24" fill="#a94f3e"/>
+      <path d="M108 28l53 20v30c0 31-22 50-53 60-31-10-53-29-53-60V48z" fill="none" stroke="#fffaf2" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M84 81l17 17 32-39" fill="none" stroke="#f3b36b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="240" y="83" text-anchor="middle" direction="rtl" font-size="27" font-weight="700" fill="#fffaf2">حاکمیت داده</text>
+      <text x="1400" y="55" text-anchor="end" direction="rtl" font-size="27" font-weight="700" fill="#173c4d">چه قواعدی داریم؟</text>
+      <text x="1400" y="99" text-anchor="end" direction="rtl" font-size="23" fill="#536a75">مالکیت، کیفیت، دسترسی، تغییر و پاسخ‌گویی</text>
+    </g>
+  </g>
+</svg>
