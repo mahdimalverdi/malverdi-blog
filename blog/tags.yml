@@ -43,6 +43,11 @@
   permalink: /software-architecture-fa
   description: یادداشت‌هایی درباره معماری، مرزبندی و تصمیم‌های ساختاری نرم‌افزار
 
+معماری_نرم_افزار_بهشتی:
+  label: معماری نرم‌افزار بهشتی
+  permalink: /sbu-software-architecture
+  description: مرورها و تمرین‌های درس معماری نرم‌افزار دانشگاه شهید بهشتی
+
 معماری تمیز:
   label: معماری تمیز
   permalink: /clean-architecture-fa
