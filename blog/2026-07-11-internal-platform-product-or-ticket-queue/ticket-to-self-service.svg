@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+  <title id="title">مسیر تکامل از صف تیکت تا خودخدمت واقعی</title>
+  <desc id="desc">در عملیات دستی و پرتال درخواست، تیم محصول همچنان منتظر اجرای تیم زیرساخت است؛ در خودخدمت واقعی، قواعد به‌صورت خودکار اجرا می‌شوند و نتیجه بدون انتظار تحویل می‌شود.</desc>
+  <rect width="1600" height="820" rx="42" fill="#f8f2e7"/>
+  <g font-family="Vazirmatn, Tahoma, sans-serif">
+    <text x="800" y="70" text-anchor="middle" direction="rtl" font-size="39" font-weight="700" fill="#153d4d">از صف تیکت تا خودخدمت واقعی</text>
+    <text x="800" y="112" text-anchor="middle" direction="rtl" font-size="22" fill="#60747b">عوض‌کردن ظاهر درخواست، وابستگی را حذف نمی‌کند</text>
+
+    <!-- Manual -->
+    <rect x="65" y="165" width="450" height="555" rx="34" fill="#fffaf2" stroke="#d7c6b5" stroke-width="3"/>
+    <circle cx="290" cy="225" r="34" fill="#bd5939"/>
+    <text x="290" y="237" text-anchor="middle" font-size="32" font-weight="700" fill="#fffaf2">۱</text>
+    <text x="290" y="291" text-anchor="middle" direction="rtl" font-size="27" font-weight="700" fill="#8f4633">عملیات دستی</text>
+
+    <rect x="120" y="335" width="160" height="68" rx="20" fill="#e6eee9"/>
+    <text x="200" y="378" text-anchor="middle" direction="rtl" font-size="21" font-weight="700" fill="#153d4d">تیم محصول</text>
+    <path d="M280 369H338" stroke="#bd5939" stroke-width="7" stroke-linecap="round"/>
+    <path d="M325 356l20 13-20 13" fill="none" stroke="#bd5939" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="348" y="335" width="112" height="68" rx="18" fill="#efc5aa"/>
+    <text x="404" y="378" text-anchor="middle" direction="rtl" font-size="20" font-weight="700" fill="#7b3d2c">تیکت</text>
+
+    <path d="M290 435v56" stroke="#bd5939" stroke-width="6" stroke-dasharray="9 9"/>
+    <circle cx="290" cy="516" r="25" fill="#f0d5c3" stroke="#bd5939" stroke-width="4"/>
+    <path d="M290 501v17l12 8" fill="none" stroke="#8f4633" stroke-width="5" stroke-linecap="round"/>
+    <text x="290" y="566" text-anchor="middle" direction="rtl" font-size="20" fill="#7c665c">انتظار در صف</text>
+    <rect x="145" y="598" width="290" height="65" rx="20" fill="#153d4d"/>
+    <text x="290" y="639" text-anchor="middle" direction="rtl" font-size="21" font-weight="700" fill="#fffaf2">اجرای تیم زیرساخت</text>
+
+    <!-- Portal -->
+    <rect x="575" y="165" width="450" height="555" rx="34" fill="#fffaf2" stroke="#d7c6b5" stroke-width="3"/>
+    <circle cx="800" cy="225" r="34" fill="#d27a43"/>
+    <text x="800" y="237" text-anchor="middle" font-size="32" font-weight="700" fill="#fffaf2">۲</text>
+    <text x="800" y="291" text-anchor="middle" direction="rtl" font-size="27" font-weight="700" fill="#99603a">پرتال درخواست</text>
+
+    <rect x="630" y="330" width="340" height="112" rx="24" fill="#f4e4d4" stroke="#d27a43" stroke-width="4"/>
+    <rect x="662" y="356" width="150" height="18" rx="6" fill="#d9b99f"/>
+    <rect x="662" y="390" width="208" height="18" rx="6" fill="#d9b99f"/>
+    <rect x="884" y="353" width="54" height="58" rx="12" fill="#d27a43"/>
+
+    <path d="M800 467v44" stroke="#bd5939" stroke-width="6" stroke-dasharray="9 9"/>
+    <circle cx="800" cy="536" r="25" fill="#f0d5c3" stroke="#bd5939" stroke-width="4"/>
+    <path d="M800 521v17l12 8" fill="none" stroke="#8f4633" stroke-width="5" stroke-linecap="round"/>
+    <text x="800" y="586" text-anchor="middle" direction="rtl" font-size="20" fill="#7c665c">همان انتظار</text>
+    <rect x="655" y="613" width="290" height="65" rx="20" fill="#153d4d"/>
+    <text x="800" y="654" text-anchor="middle" direction="rtl" font-size="21" font-weight="700" fill="#fffaf2">همان اجرای دستی</text>
+
+    <!-- Self-service -->
+    <rect x="1085" y="165" width="450" height="555" rx="34" fill="#fffaf2" stroke="#a9cbbf" stroke-width="4"/>
+    <circle cx="1310" cy="225" r="34" fill="#17685f"/>
+    <text x="1310" y="237" text-anchor="middle" font-size="32" font-weight="700" fill="#fffaf2">۳</text>
+    <text x="1310" y="291" text-anchor="middle" direction="rtl" font-size="27" font-weight="700" fill="#17685f">خودخدمت واقعی</text>
+
+    <rect x="1140" y="325" width="160" height="68" rx="20" fill="#e1eee8"/>
+    <text x="1220" y="368" text-anchor="middle" direction="rtl" font-size="21" font-weight="700" fill="#153d4d">تیم محصول</text>
+    <path d="M1300 359h52" stroke="#17685f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1339 346l20 13-20 13" fill="none" stroke="#17685f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1362" y="325" width="118" height="68" rx="20" fill="#17685f"/>
+    <text x="1421" y="368" text-anchor="middle" direction="rtl" font-size="20" font-weight="700" fill="#fffaf2">درخواست</text>
+
+    <rect x="1140" y="435" width="340" height="108" rx="26" fill="#e1eee8" stroke="#17685f" stroke-width="4"/>
+    <text x="1310" y="478" text-anchor="middle" direction="rtl" font-size="21" font-weight="700" fill="#174f4a">قواعد خودکار</text>
+    <g fill="none" stroke="#2d8b79" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1202 507l10 10 20-24"/><path d="M1290 507l10 10 20-24"/><path d="M1378 507l10 10 20-24"/>
+    </g>
+
+    <path d="M1310 543v42" stroke="#17685f" stroke-width="7"/>
+    <path d="M1297 572l13 20 13-20" fill="none" stroke="#17685f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1165" y="600" width="290" height="65" rx="20" fill="#17685f"/>
+    <text x="1310" y="641" text-anchor="middle" direction="rtl" font-size="21" font-weight="700" fill="#fffaf2">نتیجه بدون انتظار</text>
+
+    <text x="800" y="778" text-anchor="middle" direction="rtl" font-size="22" font-weight="600" fill="#4f6567">پرتال زمانی پلتفرم نیست که فقط ظاهر صف را عوض کرده باشد.</text>
+  </g>
+</svg>
